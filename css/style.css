@@ -1,0 +1,101 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 20px;
+}
+
+/* Contenedor principal */
+main {
+    margin: 50px auto;
+    width: 50%;
+    position: relative;
+}
+
+/* Secciones principales */
+section {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+/* Sección Sobre mí */
+#about {
+    background-color: #e9f5ff;
+    padding: 30px;
+    text-align: center;
+}
+
+.perfil-image {
+    width: 150px;
+    height: 150px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 4px solid #007bff;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    margin: 20px auto;
+}
+
+/* Listas */
+ul {
+    list-style: square inside;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Títulos de las secciones */
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0056b3; /* Color azul */
+    border-bottom: 2px solid #007bff; /* Línea decorativa */
+    display: inline-block;
+    padding-bottom: 5px; /* Espaciado entre el texto y la línea */
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    color: white;
+    margin-top: 40px;
+}
+
+/* Pantallas grandes */
+@media (min-width: 1024px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+    header p {
+        font-size: 1.0rem;
+    }
+}
